@@ -539,9 +539,7 @@ function renderDoubanCards(data, container) {
             // 2. 也准备代理URL作为备选
             // const proxiedCoverUrl = PROXY_URL + encodeURIComponent(originalCoverUrl);
 
-            const proxiedCoverUrl = encodeURIComponent(originalCoverUrl);
-
-            console.log("proxiedCoverUrl=========", proxiedCoverUrl);
+            const proxiedCoverUrl = "https://shiny-mouse-e39c.num1688.workers.dev" + originalCoverUrl;
             
             // 为不同设备优化卡片布局
             card.innerHTML = `
